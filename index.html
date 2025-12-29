@@ -255,9 +255,15 @@
                         <ul style="margin-left:20px;">
                             <li>- 로그인 후 Axios.get을 통해 JWT를 포함한 API 요청으로 사용자 프로필 조회</li>
                             <li>- file태그 + Axios.post를 통해 사용자 프로필 사진 변경</li>
-                            <li>- Axios.post를 통한 QR인증으로 로봇에게 안전하게 사용자 정보 전달</li>
-                            <li>- 게임 후 사용자 전적(승/패/무) 렌더링</li>
+                            <li>- 전적(승/패/무) 렌더링</li>
                             <li>- Polling을 활용하여 일정한 주기마다 사용자 프로필 업데이트</li>
+                        </ul>
+                        <li>- <b>QR인증으로 로봇과 게임 시작</b></li>
+                        <ul style="margin-left:20px;">
+                            <li>- react-qr-reader 라이브러리 사용</li>
+                            <li>- 백엔드 전공 팀원이 파이썬 코드를 실행하여 QR창이 나오면 인증</li>
+                            <li>- Axios.post를 통해 QR인증 후 인증 성공 메세지 전달</li>
+                            <li>- QR이 인증되면 로봇이 사용자 데이터를 생성(사용자 전적 및 순위에 영향을 줌)</li>
                         </ul>
                         <li>- <b>랭킹 확인</b></li>
                         <ul style="margin-left:20px;">
@@ -375,6 +381,7 @@
     <script src="function.js"></script>
 </body>
 </html>
+
 
 
 
