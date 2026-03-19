@@ -360,6 +360,10 @@ section.contact .contact-me .right button{
     section .do-me .do-inner:nth-child(2n+1){
         margin-right:4%;
     }
+    section .do-me .do-inner:hover{
+        background-color:lightcoral;
+        color:white
+    }
     section .portfolio-me .portfolio-inner{
         width:48%;
         margin-right:0;
@@ -383,6 +387,10 @@ section.contact .contact-me .right button{
     main .container{
         width:768px;
     }
+    section .do-me .do-inner:hover{
+        background-color:lightcoral;
+        color:white
+    }
     section .portfolio-me .portfolio-inner{
         width:100%;
     }
@@ -398,9 +406,16 @@ section.contact .contact-me .right button{
     section .container{
         width:400px;
     }
+    section .do-me{
+        display:block;
+    }
     section .do-me .do-inner{
         width:100%;
         margin-right:4%;
+    }
+    section .do-me .do-inner:hover{
+        background-color:lightcoral;
+        color:white
     }
 }
 
@@ -413,6 +428,10 @@ section.contact .contact-me .right button{
     }
     section .container{
         width:360px;
+    }
+    section .do-me .do-inner:hover{
+        background-color:lightcoral;
+        color:white
     }
 }
 
@@ -431,5 +450,9 @@ section.contact .contact-me .right button{
     }
     section .title h2{
         font-size:3rem;
+    }
+    section .do-me .do-inner:hover{
+        background-color:lightcoral;
+        color:white
     }
 }
